@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Site information -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BigShow - Movie / Film / Cinema Template</title>
+    <meta name="description" content="Bigshow is a template to jump start campaigning your various kind of movie or tv show">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.transitions.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/template/favicon.png">
+    <link rel="apple-touch-icon" href="images/template/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/template/icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/template/icon-114x114.png">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.min.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+     
+
+
+
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="lds-css ng-scope">
+            <div class="lds-ripple">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Top Header -->
+    <header class="topbar text-white" id="topbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-8">
+                    <p class="topbar-intro">Enjoy your favourite movie, TV show &amp; video in a single subscription at $60</p>
+                </div>
+                <div class="col-lg-6 col-sm-4">
+                    <div class="topbar-right-btns">
+                        <a class="btn" href="login.html">登录</a>
+                        <a class="btn" href="signup.html">注册</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Top Header End -->
+
+    <!-- Main Header -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/template/logo.png" alt="Site Logo">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="main-nav-collapse">
+                <form class="navbar-form navbar-left">
+                    <select name="type">
+                        <option value="movie" selected>Movies</option>
+                        <option value="tv">TV</option>
+                    </select>
+                    <input type="search" name="searchinput" required>
+                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="tv-show.html">TV Show</a></li>
+                    <li class="dropdown">
+                        <a href="movie-list.html">Movies</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="movie-list.html">English</a></li>
+                            <li><a href="movie-list.html">Hindi</a></li>
+                            <li><a href="movie-list.html">Chinees</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Sports</a></li>
+                    <li class="dropdown">
+                        <a href="#">Pages</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="movie-list.html">Movies</a></li>
+                            <li><a href="movie-detail.html">Movie Detail</a></li>
+                            <li><a href="tv-show.html">TV Show</a></li>
+                            <li><a href="celebrities.html">Celebrities</a></li>
+                            <li><a href="celebrity-detail.html">Celebrity Details</a></li>
+                            <li><a href="news.html">News</a></li>
+                            <li><a href="news-detail.html">News Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main Header End -->
+
+<div class="form-group" style="display:none" >
+    <label for="carousel_img" class="col-sm-2 control-label">群图片介绍</label>
+    <div class="col-sm-4">
+        <input type="file" multiple="multiple" id="carousel_img" name="carousel_img" placeholder="群图片介绍"/>
+        <input type="hidden" name="carouselImgs" id="carousel_imgs_hidden"/>
+    </div>
+</div>
+    <!-- Page Header End -->
+        <div class="copyright-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-7 col-xs-12 xs-text-center">
+                        <ul class="footer-nav">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-sm-5 col-xs-12 xs-text-center">
+                        <p class="copyright-text">&copy; 2017 <a href="index.html">BigShow</a>. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Script -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="http://ditu.google.cn/maps/api/js?key=AIzaSyAmiJjq5DIg_K9fv6RE72OY__p9jz0YTMI"></script>
+    <script src="assets/js/map.js"></script>
+    <script src="assets/js/custom.js"></script>
+	<script >
+	    var carouselImgs = [] ;
+	    // 协会图片介绍
+	    $("#carousel_img").fileinput({
+	        uploadUrl: "/uploadFile/img",
+	        language: 'zh',
+	        allowedFileExtensions: ["jpg", "png", "gif"],
+	        dropZoneEnabled:false,
+	        showClose:false,
+	        showCaption: false,
+	        maxFileCount:10,
+	        showRemove:false,
+	        uploadAsync: true,
+	        enctype: 'multipart/form-data',
+	        validateInitialCount:true,
+	        msgFilesTooMany: "选择上传的文件数量({n}) 超过允许的最大数值{m}！",
+	        fileActionSettings:{
+	            showRemove: true,
+	            showUpload: false,
+	            showDownload: true,
+	        },
+	        previewSettings: {
+	            image: {width: "200px", height: "160px"},
+	        },
+	        overwriteInitial: false,
+	    }).on("fileuploaded", function(event, data, previewId, index) {
+	        var fileName = data.response.data;
+	        $("#"+previewId).attr("fileName", fileName) ;
+	        carouselImgs.push(fileName) ;
+	        $("#carousel_imgs_hidden").val(carouselImgs) ;
+	    }).on("filesuccessremove", function(event, previewId, extra) {
+	        var fileName = $("#"+previewId).attr("fileName");
+	        var newCarouselImgs = [] ;
+	        for (var i = 0; i < carouselImgs.length; i++) {
+	            if (carouselImgs[i] != fileName)
+	                newCarouselImgs.push(carouselImgs[i]);
+	        }
+	        carouselImgs = newCarouselImgs ;
+	        $("#carousel_imgs_hidden").val(carouselImgs) ;
+	    })/*.on('filebatchselected', function(event, files) {
+	        // 选中文件自动上传
+	        $('#carousel_img').fileinput('upload');
+	    })*/;
+	</script>
+</body>
+
+</html>

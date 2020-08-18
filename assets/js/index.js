@@ -8,10 +8,10 @@ var html;
 					if(data.code === 200){
 						var username = data.data;
 						html = "welcome<a class='btn' href='#'>"+username+"</a>"
-						+ "<a class='btn' onclick='loginOut()'>退出</a>";
+						+ "<a class='btn' onclick='loginOut()'>退出</a><a class='btn' onclick='goTo(1)'>上传</a>";
 					}else {
 						html = '<a class="btn" href="login.html">登录</a>'+
-		                '<a class="btn" href="signup.html">注册</a>';
+		                '<a class="btn" href="signup.html">注册</a><a class="btn" onclick="goTo(2)">上传</a>';
 					}
 		         }
 		}) 
@@ -25,4 +25,12 @@ var html;
 			             window.location.href ="index.html";
 			         }
 			}) 
+		 }
+		 
+		 function goTo(num){
+			 if(num == 1){
+				 window.location.href ="upload.html";
+			 }else{
+				 window.location.href ="login.html";
+			 }
 		 }
