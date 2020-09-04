@@ -131,7 +131,7 @@ function sendSmsBtn(obj) {
 					}else{
 						alert(data.message)
 					}
-				  }
+			}
 		})
 	  }else{
 		  $("#code").val("");
